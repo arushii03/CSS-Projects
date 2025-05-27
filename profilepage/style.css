@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #141414;
+}
+
+section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    /* border: 12px solid blueviolet; */
+}
+
+article {
+    background-color: #1f1f1f;
+    padding: 1.6rem 1.4rem;
+    border-radius: 8px;
+}
+
+.card-header img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    margin-bottom: 18px;
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-header h2 {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.card-header h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #c5f82a;
+    margin-bottom: 18px;
+}
+
+.card-header p {
+    font-size: 14px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card-body a {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.card-body a:hover{
+    background-color: #c5f82a;
+    color: #141414;
+}
+
+

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242742;
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+article{
+    display: flex;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #ffffff;
+}
+
+.image{
+    padding: 0.5rem;
+}
+
+.content{
+    padding: 3rem;
+    color: #242742;
+    width: 500px;
+}
+
+.content h2{
+    padding-bottom: 0.5rem;
+    font-weight: 700px;
+    font-size: 60px;
+
+}
+
+.content p{
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400px;
+
+}
+.content ul{
+    padding: 8px;
+    margin-left: 1rem;
+}
+
+.content form{
+    display: flex;
+    flex-direction:column ;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 400px;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.content a{
+    display: block;
+    text-align: center;
+    background-color: #242742;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    width: 350px;
+    height: 3rem; 
+    margin-left: 0.5rem;
+    padding: 1rem;
+    
+}
+
+input{
+    width: 350px;
+    height: 3rem; 
+    border-radius: 0.5rem; 
+    border-color: #242742;
+    padding: 1rem;
+}
+
+li{
+    padding: 5px;
+}
+
+.content a:hover{
+    background-image: linear-gradient(to right,#fc2b63,#ff6257);
+}
+
+@media screen and (width <= 600px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    section{
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .image{
+        src: "img_mobile.svg";
+        border-radius: 1rem;
+        margin: 0%;
+        padding: 0%;
+    }
+    img{
+        width: 100%;
+    }
+    article{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+    .content h2{
+        font-size: 45px;
+    }
+    
+    body{
+        background-color: #ffffff;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+}
